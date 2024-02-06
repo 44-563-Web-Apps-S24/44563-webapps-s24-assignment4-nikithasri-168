@@ -22,3 +22,24 @@
     color: blueviolet;
     font-family: 'Times New Roman', Times, serif;
 }
+.cast-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cast-table th, .cast-table td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .cast-table th {
+    background-color: aqua;
+  }
+  
+  .cast-table tr:nth-child(even) {
+    background-color: darkorange;
+  }
+  
+  .cast-table th, .cast-table td {
+    border: 1px solid #f90707;
+  }
