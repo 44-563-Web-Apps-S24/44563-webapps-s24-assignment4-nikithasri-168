@@ -22,24 +22,17 @@
     color: blueviolet;
     font-family: 'Times New Roman', Times, serif;
 }
-.cast-table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .cast-table th, .cast-table td {
-    padding: 8px;
-    text-align: center;
-  }
-  
-  .cast-table th {
-    background-color: aqua;
-  }
-  
-  .cast-table tr:nth-child(even) {
-    background-color: darkorange;
-  }
-  
-  .cast-table th, .cast-table td {
-    border: 1px solid #f90707;
-  }
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: coral;}
+</style>
