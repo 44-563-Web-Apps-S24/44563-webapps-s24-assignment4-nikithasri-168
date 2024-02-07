@@ -23,6 +23,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 <style>
+
 tr{
     display: table-row;
     vertical-align: inherit;
@@ -42,4 +43,6 @@ table {
   text-indent: initial;
   border-spacing: 2px;
 }
+tr:nth-child(even) {
+    background-color: #dddddd;}
 </style>
