@@ -47,6 +47,9 @@ tr:nth-child(even) {
     background-color: #dddddd;}
 </style>
 .SHIPUCHIN:hover {
-    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
-    border: 2px solid blue;
+    font-size: medium;
+    color: brown;
+    text-shadow: chartreuse;
+    border-style: dotted;
+    border-radius: 15px;
 }
