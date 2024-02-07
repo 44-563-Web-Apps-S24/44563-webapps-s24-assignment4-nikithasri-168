@@ -22,7 +22,6 @@
     color: blueviolet;
     font-family: 'Times New Roman', Times, serif;
 }
-<style>
 
 tr{
     display: table-row;
@@ -45,7 +44,7 @@ table {
 }
 tr:nth-child(even) {
     background-color: #dddddd;}
-</style>
+
 .SHIPUCHIN:hover {
     font-size: medium;
     color: brown;
