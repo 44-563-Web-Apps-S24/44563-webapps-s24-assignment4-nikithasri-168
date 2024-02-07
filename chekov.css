@@ -23,16 +23,25 @@
     font-family: 'Times New Roman', Times, serif;
 }
 <style>
+tr:nth.child(even){
+    background-color: #62c7a2;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table{
+    border-color: cornflowerblue;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
 table {
-  border-collapse: collapse;
-  width: 100%;
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
 }
-
-th, td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
-
-tr:hover {background-color: coral;}
 </style>
