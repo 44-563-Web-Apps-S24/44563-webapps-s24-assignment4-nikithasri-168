@@ -23,15 +23,13 @@
     font-family: 'Times New Roman', Times, serif;
 }
 <style>
-tr:nth.child(even){
-    background-color: aquamarine;
-}
 tr{
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
 }
 table{
+    background-color: hotpink;
     border-color: cornflowerblue;
     width: 100%;
     text-align: center;
